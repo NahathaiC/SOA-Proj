@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.MySQL", "Northwind.MySQL\Northwind.MySQL.csproj", "{01C25250-35D2-496B-96AB-83FA9A187861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C25250-35D2-496B-96AB-83FA9A187861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C25250-35D2-496B-96AB-83FA9A187861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C25250-35D2-496B-96AB-83FA9A187861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C25250-35D2-496B-96AB-83FA9A187861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02CFB067-063C-4A74-8320-5F9BAD2B0939}
+	EndGlobalSection
+EndGlobal

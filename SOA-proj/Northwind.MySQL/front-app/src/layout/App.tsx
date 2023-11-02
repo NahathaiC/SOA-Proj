@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import { Product } from "./product";
+import { Product } from "../models/product";
+import Catalog from "../features/catalog/Catalog";
+
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -23,17 +25,9 @@ function App() {
     return <p>Loading...</p>;
   }
   return (
-    <div>
-      <h1 style={{ color: "black" }}>Northwind Final Project</h1>
-      <ul>
-        {products.map((product) => (
-          <li key={product.productId}>
-            <strong>Product Id:</strong> {product.productId} - {product.productName}
-            <br />
-          </li>
-        ))}
-      </ul>
-    </div>
+    <>
+      <Catalog products={products} />
+    </>
   );
 }
 

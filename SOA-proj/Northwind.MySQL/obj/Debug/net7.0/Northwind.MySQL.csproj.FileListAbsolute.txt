@@ -42,7 +42,9 @@ D:\SOA\SOA-proj\Northwind.MySQL\obj\Debug\net7.0\Northwind.MySQL.pdb
 D:\SOA\SOA-proj\Northwind.MySQL\obj\Debug\net7.0\Northwind.MySQL.genruntimeconfig.cache
 D:\SOA\SOA-proj\Northwind.MySQL\obj\Debug\net7.0\ref\Northwind.MySQL.dll
 D:\SOA\SOA-proj\Northwind.MySQL\bin\Debug\net7.0\Newtonsoft.Json.dll
-D:\SOA\SOA-proj\Northwind.MySQL\obj\Debug\net7.0\Northwind.MySQL.RazorAssemblyInfo.cache
-D:\SOA\SOA-proj\Northwind.MySQL\obj\Debug\net7.0\Northwind.MySQL.RazorAssemblyInfo.cs
 D:\SOA\SOA-proj\Northwind.MySQL\bin\Debug\net7.0\AutoMapper.dll
 D:\SOA\SOA-proj\Northwind.MySQL\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\SOA\SOA-proj\Northwind.MySQL\bin\Debug\net7.0\front-app\package-lock.json
+D:\SOA\SOA-proj\Northwind.MySQL\bin\Debug\net7.0\front-app\package.json
+D:\SOA\SOA-proj\Northwind.MySQL\bin\Debug\net7.0\front-app\tsconfig.json
+D:\SOA\SOA-proj\Northwind.MySQL\bin\Debug\net7.0\front-app\tsconfig.node.json

@@ -1,0 +1,31 @@
+@model IEnumerable<Northwind.Models.Product>
+@{
+    ViewBag.Title = "www.compilemode.com";
+}
+<div class="form-horizontal">
+    <hr />
+    <div class="form-group">
+        <table class="table table-responsive" style="width:400px">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ProductName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UnitPrice)
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+
+                        @Html.DisplayFor(modelItem => item.UnitPrice)
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
